@@ -1,0 +1,124 @@
+#container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container img
+{
+    height: 150px;
+    width: 150px;
+}
+
+#container h1
+{
+    margin-bottom: 10rem;
+}
+
+#container h3
+{
+    margin-bottom: 10rem;
+
+    font-size: 2rem;
+}
+
+#jogo
+{
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#jogo h2
+{
+    margin-bottom: 3rem;
+}
+
+.vitoria
+{
+    display: none;
+    height: 95vh;
+    width: 95vw;
+}
+
+.vitoria h1
+{
+    font-size: 10rem;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.vitoria p
+{
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    left: 37%;
+}
+
+.tabuleiro td
+{
+    border: 1px solid #121212;
+    width: 100px;
+    height: 100px;
+}
+
+.tabuleiro td img
+{
+    height: 70px;
+    width: 70px;
+
+    position: relative;
+    top: .93rem;
+    left: .93rem;
+}
+
+#casa1 
+{
+    border-top: none !important;
+    border-left: none !important;
+}
+
+#casa2 
+{
+    border-top: none !important;
+}
+
+#casa3
+{
+    border-top: none !important;
+    border-right: none !important;
+}
+
+#casa4
+{
+    border-left: none !important;
+}
+
+#casa6
+{
+    border-right: none !important;
+}
+
+#casa7
+{
+    border-bottom: none !important;
+    border-left: none !important;
+}
+
+#casa8
+{
+    border-bottom: none !important;
+}
+
+#casa9
+{
+    border-bottom: none !important;
+    border-right: none !important;
+}

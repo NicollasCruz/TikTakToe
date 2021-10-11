@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="../styles/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <div id="container">
+        <h1>TIK TAK TOE</h1>
+        <img src="../images/botao-play.png" id="jogar">
+        <h3>JOGAR</h3>
+    </div>
+    <div id="jogo">
+        <h2 id="mostradorDeVez">Vez do jogador de X</h2>
+        <table class="tabuleiro">
+            <tr>
+                <td id="casa1" class="casas"></td>
+                <td id="casa2" class="casas"></td>
+                <td id="casa3" class="casas"></td>
+            </tr>
+            <tr>
+                <td id="casa4" class="casas"></td>
+                <td id="casa5" class="casas"></td>
+                <td id="casa6" class="casas"></td>
+            </tr>
+            <tr>
+                <td id="casa7" class="casas"></td>
+                <td id="casa8" class="casas"></td>
+                <td id="casa9" class="casas"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="vitoria-X" class="vitoria">
+        <h1>VITÓRIA DO JOGADOR X</h1> 
+        <p>(clicke para jogar novamente)</p>
+    </div>
+    <div id="vitoria-O" class="vitoria">
+        <h1>VITÓRIA DO JOGADOR O</h1>
+        <p>(clicke para jogar novamente)</p> 
+    </div>
+    <div id="velha" class="vitoria">
+        <h1>DEU VELHA</h1>
+        <p>(clicke para jogar novamente)</p> 
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../scripts/index.js"></script>
+</body>
+</html>
